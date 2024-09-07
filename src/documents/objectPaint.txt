@@ -1,0 +1,31 @@
+In the given ToolBox class:
+
+1. Object: clipBoard
+   - Responsibility: Represents the clipboard used for copy/paste functionality within the application.
+
+2. Object: image
+   - Responsibility: Represents the image tool responsible for image manipulation
+
+3. Object: shapes
+   - Responsibility: Represents the shapes tool for drawing various shapes. 
+
+4. Object: colours
+   - Responsibility: Represents the colors tool for color manipulation.
+
+5. Object: innerPage
+   - Responsibility: Represents the main drawing area (an instance of InnerPage ) where users can create and manipulate drawings. It serves as the canvas for drawing tools like brushes, erasers, and text tools.
+
+6. Object: brushTypeComboBox
+   - Responsibility: Represents a combo box allowing the user to select different types of brushes for drawing. It provides options like ROUND, ANGLE, etc.
+
+7. Object: brushSizeComboBox
+   - Responsibility: Represents a combo box allowing the user to select different sizes for the brush tool, determining the width of the brush strokes.
+
+8. Object: text
+   - Responsibility: Represents the text tool for adding text to the drawing area. The TextTool class handle text-related functionality. 
+
+9. Object: textSize
+   - Responsibility: Represents the size of the text tool's font. It is used to control the font size of the text added to the drawing area.
+
+10. Object: Some UI elements like buttons (brushButton, eraserButton, textButton, textIncreaseButton, textDecreaseButton) and layout containers (VBox, HBox, GridPane).
+   - Responsibility: They provide buttons for selecting drawing tools, adjusting text size, and managing tool options like brush type and eraser size.
